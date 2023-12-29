@@ -1,0 +1,119 @@
+
+@font-face {
+    font-family: futurabook;
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    src: url('./static/fonts/FuturaPT-ExtraBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: futuralight;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Futura PT'), url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicLight.woff) format('woff')
+}
+
+@font-face {
+    font-family: futuramedium;
+    font-style: normal;
+    font-weight: 450;
+    src: local('Futura PT'), url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicMedium.woff) format('woff')
+}
+
+@font-face {
+    font-family: futurademi;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Futura PT'), url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicDemi.woff) format('woff')
+}
+
+@font-face {
+    font-family: futuraheavy;
+    font-style: normal;
+    font-weight: 600;
+    src: local('Futura PT'), url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicHeavy.woff) format('woff')
+}
+
+@font-face {
+    font-family: futurabold;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Futura PT'), url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicBold.woff) format('woff')
+}
+
+@font-face {
+    font-family: futuraextbold;
+    font-style: normal;
+    font-weight: 800;
+    src: local('Futura PT'), url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicExtraBold.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+    url('./fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/FuturaPT-Medium.woff') format('woff'),
+    url('./fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*@font-face {*/
+/*    font-family: 'Futura PT Book';*/
+/*    src: url('./fonts/FuturaPT-Book.eot');*/
+/*    src: local('Futura PT Book'), local('FuturaPT-Book'),*/
+/*    url('./fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),*/
+/*    url('./fonts/FuturaPT-Book.woff') format('woff'),*/
+/*    url('./fonts/FuturaPT-Book.ttf') format('truetype');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Futura PT';*/
+/*    src: url('./fonts/FuturaPT-Light.eot');*/
+/*    src: local('Futura PT Light'), local('FuturaPT-Light'),*/
+/*    url('./fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),*/
+/*    url('./fonts/FuturaPT-Light.woff') format('woff'),*/
+/*    url('./fonts/FuturaPT-Light.ttf') format('truetype');*/
+/*    font-weight: 300;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: 'Futura PT';*/
+/*    src: url('./fonts/FuturaPT-Bold.eot');*/
+/*    src: local('Futura PT Bold'), local('FuturaPT-Bold'),*/
+/*    url('./fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),*/
+/*    url('./fonts/FuturaPT-Bold.woff') format('woff'),*/
+/*    url('./fonts/FuturaPT-Bold.ttf') format('truetype');*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Futura PT Extra';*/
+/*    src: url('./fonts/FuturaPT-ExtraBold.eot');*/
+/*    src: local('Futura PT Extra Bold'), local('FuturaPT-ExtraBold'),*/
+/*    url('./fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),*/
+/*    url('./fonts/FuturaPT-ExtraBold.woff') format('woff'),*/
+/*    url('./fonts/FuturaPT-ExtraBold.ttf') format('truetype');*/
+/*    font-weight: 800;*/
+/*    font-style: normal;*/
+/*}*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
