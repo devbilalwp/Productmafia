@@ -1,0 +1,338 @@
+/* @import url(https://db.onlinewebfonts.com/c/0316f0985035b3b10b4873654f9b0563?family=Futura+PT+Extra+Bold);
+
+.futura-pt-extra{
+    font-family: "Futura PT Extra Bold";
+}
+
+@font-face {
+    font-family: 'Futura-300';
+    src: url('../static/new-fonts/Futura-Light.otf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Futura-400';
+    src: url('../static/new-fonts/Futura-Regular.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Futura-500';
+    src: url('../static/new-fonts/Futura-Medium.otf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Futura-600';
+    src: url('../static/new-fonts/Futura-SemiBold.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Futura-700';
+    src: url('../static/new-fonts/Futura-Bold.otf') format('truetype');
+  }
+ */
+
+
+
+
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Heavy.eot');
+    src: local('Futura PT Heavy'), local('FuturaPT-Heavy'),
+        url('./fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Heavy.woff') format('woff'),
+        url('./fonts/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Medium.eot');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+        url('./fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Medium.woff') format('woff'),
+        url('./fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('./fonts/FuturaPT-Book.eot');
+    src: local('Futura PT Book'), local('FuturaPT-Book'),
+        url('./fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Book.woff') format('woff'),
+        url('./fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Light.eot');
+    src: local('Futura PT Light'), local('FuturaPT-Light'),
+        url('./fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Light.woff') format('woff'),
+        url('./fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/FuturaPT-Bold.eot');
+    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
+        url('./fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-Bold.woff') format('woff'),
+        url('./fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Extra';
+    src: url('./fonts/FuturaPT-ExtraBold.eot');
+    src: local('Futura PT Extra Bold'), local('FuturaPT-ExtraBold'),
+        url('./fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/FuturaPT-ExtraBold.woff') format('woff'),
+        url('./fonts/FuturaPT-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.futura-pt-extra {
+    font-family: 'Futura PT Extra';
+}
+
+p {
+    font-family: 'Futura PT';
+}
+
+.header-blueButton {
+    background: linear-gradient(94.83deg, #283be6 -2.31%, #0094ff 95.06%);
+}
+
+.header-blueButton:hover {
+    box-shadow: 0 0 0 6px #ffffff16;
+    background: #3b5998;
+    border: 1px solid #2a3f6c;
+    color: #ffffff;
+}
+
+
+.gt-started-btn {
+    background: linear-gradient(94.83deg, #283be6 -2.31%, #0094ff 95.06%);
+}
+.gt-started-btn:hover {
+    box-shadow: 7px 10px 16px 5px rgba(0, 0, 0, 0.23);
+    background: #3b5998;
+    color: #ffffff;
+    border: 1px solid #2a3f6c;
+}
+.entry_section{
+    background-image: linear-gradient(142.08deg, #130110, #1b2047 87.73%);
+}
+.headcount_p{
+    background-image: linear-gradient(94.83deg, #ca16e8 -2.31%, #ff4853 95.06%);
+}
+h1.product_heading {
+    background-image: linear-gradient(94.83deg, #ca16e8 -2.31%, #ff4853 95.06%);
+}
+section.products {
+    --tw-bg-opacity: 1;
+    /* background-color: rgb(241 245 249 / var(--tw-bg-opacity)); */
+}
+.metrics_head{
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, .2), transparent), linear-gradient(0deg, #df559e, #df559e);
+}
+section.metrics {
+    background-color: #f5f5f5;
+}
+section.drop {
+    background: #efefef;
+}
+img.premiumImage {
+    border-radius: 30px;
+}
+.prime_head{
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, .2), transparent), linear-gradient(0deg, #fe5e68, #fe5e68);
+}
+section.tools h1{
+    background-image: linear-gradient(94.83deg, #e09c45 -2.31%, #d1183a 46.14%, #ac3c93 95.06%), linear-gradient(94.83deg, #b44ae6 -2.31%, #fe5d67 95.06%);
+}
+.si_four .shopEmodji ,.si_three .shopEmodji , .si_two .shopEmodji , .si_one .shopEmodji {
+    margin-top: 12px;
+    background: hsla(0, 0%, 100%, .08);
+    border-radius: 17px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+.mySwiper_home_slider .custom_prev_btn{
+    position: absolute;
+    background: linear-gradient(90deg, #fff 29.75%, hsla(0, 0%, 100%, 0));
+    height: 100%;
+    width: 25%;
+    top: 0px;
+    z-index: 2;
+}
+.mySwiper_home_slider .swiperButtonsRight{
+    position: absolute;
+    background: linear-gradient(-90deg, #fff 29.75%, hsla(0, 0%, 100%, 0));
+    height: 100%;
+    width: 25%;
+    top: 0px;
+    z-index: 2;
+    right: 0px;
+}
+.mySwiper_home_slider .swiper-button-next:after, .mySwiper_home_slider .swiper-button-prev:after{
+    display:none;
+}
+.mySwiper_home_slider .swiper-button-next, .mySwiper_home_slider .swiper-button-prev {
+    background: #000;
+    border-radius: 11px;
+    box-shadow: 0 6px 36px rgb(0 0 0 / 40%);
+    height: 40px;
+    width: 40px;
+}
+.mySwiper_home_slider .swiper-button-next svg{
+    transform: rotate(180deg);
+}
+.headerProductVisibleMask{
+    background: linear-gradient(hsla(0, 0%, 100%, 0), #fff);
+}
+@media only screen and (max-width:770px) {
+    img.premiumImage {
+        border-radius: 15px;
+    }
+}
+@media only screen and (max-width:430px) {
+    .join button{
+        padding: 18px 72px;
+    }
+    .si_parent_one , .si_parent_two , si_parent_three{
+        width: 100%;
+        max-width: 85%;
+        margin: auto;
+    }
+    .swiper-slide img{
+        max-width: 70px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .swiper-slide p{
+       text-align: center;
+        font-weight: 700;
+    }
+    .swiper-slide{
+        padding-bottom: 30px;
+    }
+
+    section.premium img {
+        max-width: 72px;
+        border-radius: 20px;
+    }
+.head_h1{
+    font-size: 42px;
+}
+    .premium_a {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .premium_b{
+        display: flex;
+        width: 100%;
+        max-width: 25%;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:380px) {
+    .mt_heading{
+font-size: 28px;
+    }
+}
+@media only screen and (max-width:330px) {
+    .prim_imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+}
+
+
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||\\ */
+
+.my-new-swiper-slider .swiper-button-next::after, 
+.my-new-swiper-slider .swiper-button-prev::after {
+    content: "";
+}
+
+.my-new-swiper-slider i {
+    background: #000;
+    border-radius: 11px;
+    box-shadow: 0 6px 36px rgb(0 0 0 / 40%);
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+.my-new-swiper-slider .swiper-button-next,
+.my-new-swiper-slider .swiper-button-prev {
+    width: 25%;
+    height: 110%;
+    top: 0;
+}
+
+.my-new-swiper-slider .swiper-button-prev {
+    background: linear-gradient(90deg, #fff 29.75%, hsla(0, 0%, 100%, 0));
+    justify-content: flex-start;
+    left: 0;
+    padding-left: 1%;
+}
+
+.my-new-swiper-slider .swiper-button-next {
+    background: linear-gradient(-90deg, #fff 29.75%, hsla(0, 0%, 100%, 0));
+    justify-content: flex-end;
+    right: 0;
+    padding-right: 1%;
+}
+
+
+
+@media (max-width:430px) {
+    .my-new-swiper-slider .swiper-slide {
+        padding: 0 60px;
+    }
+    .my-new-swiper-slider .swiper-button-prev {
+        padding-left: 2%;
+    }
+    .my-new-swiper-slider .swiper-button-next {
+        padding-right: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+

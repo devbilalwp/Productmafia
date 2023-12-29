@@ -1,0 +1,31 @@
+<?php
+/*
+*  Template Name: Terms of Services
+*
+*/
+if(!defined ('ABSPATH')){
+    exit;
+} 
+get_header();
+?>
+        <div id="banner-section" class="py-[70px] mb-[50px] bg-[url('<?php echo get_template_directory_uri();?>/uploads/term-banner.webp')] bg-no-repeat">
+            <div id="term-banner-title" class="term-banner">
+                <h1 class="text-center text-white font-semibold text-[37px] font-sans pt-4 pb-2"><?php the_title();?></h1>
+            </div>
+        </div>
+        <div id="below-banner-content xl:container">
+
+
+            <h2 class="text-center text-black font-semibold text-[24px] font-sans"><?php the_field('below_banner_first_title');?></h2>
+            
+
+            <div class="mx-auto md:px-32 sm:px-10 px-8 pt-2 pb-10 text-black font-normal text-[17px] leading-10">
+                 <?php the_content();?>
+            </div>
+        </div>
+
+
+
+
+<?php
+get_footer();
